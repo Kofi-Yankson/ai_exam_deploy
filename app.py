@@ -257,7 +257,7 @@ def clustering_app():
         st.pyplot(fig)
 
 #sidebar
-app = st.sidebar.selectbox("Select model to use", ["LLM Retrieval Augmented System", "Regression Explorer", "Clustering Explorer", "Neural Network Classifier"])
+app = st.sidebar.selectbox("Kofi Edu Yankson 10211100299","Select model to use", ["LLM Retrieval Augmented System", "Regression Explorer", "Clustering Explorer", "Neural Network Classifier"])
 
 if app == "LLM Retrieval Augmented System":
     rag_app()
