@@ -36,9 +36,6 @@ embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
 
 def rag_app():
     st.title("LLM Retrieval Augmented System")
-   
-    st.write(" "Kofi Edu Yankson 10211100299")
-
     st.write("Ask questions based on the Academic City Student Handbook document.")
 
     file_path = "handbook.pdf"
@@ -158,7 +155,6 @@ def rag_app():
 # Regression Explorer
 def regression_app():
     st.title("Regression Explorer")
-    st.write(" "Kofi Edu Yankson 10211100299")
     st.markdown("Upload a dataset with a **continuous target column** to perform linear regression.")
 
     uploaded_file = st.file_uploader("Upload CSV file", type=["csv"], key="reg_csv")
@@ -223,7 +219,6 @@ def regression_app():
 # Clustering Explorer
 def clustering_app():
     st.title("📊 Clustering Explorer")
-    st.write(" "Kofi Edu Yankson 10211100299")
     st.markdown("Upload a dataset with multiple features to perform K-Means clustering.")
 
     uploaded_file = st.file_uploader("Upload CSV file", type=["csv"], key="cluster_csv")
